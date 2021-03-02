@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "RobotoRegular";
   src: url("./fonts/Roboto/Roboto-Regular.ttf");
@@ -15,10 +16,36 @@ body {
 
 header {
   width: 123px;
-  margin: 134px 203.5px 124px 145px;
+  padding: 34px 203.5px 24px 145px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+header .underNav {
+  top: 15px;
+  right: 212px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .underNav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #03363d;
+  font-family: RodotoRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header img {
@@ -73,6 +100,9 @@ header .nav .headerButton {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .freeTrial {
@@ -114,11 +144,14 @@ header .nav .headerButton {
   color: #00a656;
   margin-bottom: 10px;
   margin-top: 10px;
+  border-bottom: 4px solid white;
 }
 
 .freeTrial_title_service {
   color: #30aabc;
   margin-top: 10px;
+  border-bottom: 4px solid white;
+  width: 255px;
 }
 
 .freeTrial_details {
@@ -439,6 +472,7 @@ header .nav .headerButton {
   height: 262px;
   padding: 32px 35px 42px 32px;
   background-color: #f8f9f9;
+  border-bottom: 2px solid #7D3D54;
 }
 
 .anotherArticle_article_trend_section, .anotherArticle_article_champions_section, .anotherArticle_article_newProduct_section {
@@ -485,6 +519,7 @@ header .nav .headerButton {
 .anotherArticle_article_champions {
   margin-left: 16px;
   margin-right: 16px;
+  border-bottom: 2px solid #3D8DAE;
 }
 
 .anotherArticle_article_champions_title {
@@ -494,6 +529,10 @@ header .nav .headerButton {
 .anotherArticle_article_champions_text {
   margin-bottom: 78px;
   font-size: 16px;
+}
+
+.anotherArticle_article_newProduct {
+  border-bottom: 2px solid #C38F00;
 }
 
 .anotherArticle_article_newProduct_section {
@@ -543,11 +582,11 @@ header .nav .headerButton {
 .customers_logo {
   margin-right: 143px;
   margin-bottom: 56px;
-  width: 400px;
 }
 
 .customers_logo_title {
   font-family: RobotoRegular;
+  width: 400px;
   font-style: normal;
   font-weight: bold;
   font-size: 47px;
@@ -610,15 +649,15 @@ header .nav .headerButton {
 
 .customers_photo {
   position: relative;
-  width: 263px;
-  height: 342px;
+  width: 533.5px;
+  height: 638.7px;
 }
 
 .customers_photo_customer3 {
   position: absolute;
-  width: 100%;
+  width: 263px;
   top: 314px;
-  left: 373px;
+  left: 230px;
 }
 
 .customers_photo_customer2 {
@@ -626,7 +665,6 @@ header .nav .headerButton {
   height: 411px;
   width: 317px;
   top: 156px;
-  left: 143px;
 }
 
 .customers_photo_customer1 {
@@ -634,7 +672,7 @@ header .nav .headerButton {
   height: 206px;
   width: 159px;
   top: 96px;
-  left: 425px;
+  left: 282px;
 }
 
 .moreArticle {
@@ -960,4 +998,6 @@ header .nav .headerButton {
   color: #68737d;
   margin-top: 0;
 }
+
+/* ---------------- Десктопи і лептопи --------------------- */
 /*# sourceMappingURL=style.css.map */
